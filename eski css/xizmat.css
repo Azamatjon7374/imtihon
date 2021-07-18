@@ -1,0 +1,484 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", "Areal", sans-serif ;
+   
+}
+.container{
+    width: 1130px;
+    margin: 0 auto;
+   
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.header:hover{
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pixer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_img{
+    width: 58.11px;
+    height: 20px;
+    margin-right: 342px;
+}
+
+.header_right{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.header_right_item{
+    font-size: 15px;
+    line-height: 24px;
+    margin-right: 32px;
+}
+
+.header_right_item:nth-child(8){
+    margin-right: 0;
+    
+}
+.contact{
+    margin-right: 24px;
+}
+.tel_link{
+    text-decoration: none;
+    display: flex;
+    padding: 8px 16px;
+    width: 166px;
+    height: 40px;
+    background: #00BAFC;
+    border-radius: 5px;
+  
+}
+.header:hover .tel_link{
+    width: 166px;
+    height: 40px;
+background: #FFFFFF;
+border: 3px solid #00BAFC;
+box-sizing: border-box;
+border-radius: 5px;
+color: #00BAFC;
+padding: 8px 16px;
+align-items: center;
+}
+.header:hover .tel_number{
+    color: #00BAFC;
+    width: 128px;
+height: 24px;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+}
+.drop_menu{
+    position: absolute;
+    list-style-type: none;
+    display: none;
+ width: 140px;
+height: 230px;
+left: 680px;
+padding: 16px;
+background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+.drop_menu_item{
+    
+    margin-bottom: 16px;
+}
+.drop_menu_item:nth-child(5){
+   margin-bottom: 0;
+}
+.xizmat_service:hover + .drop_menu{
+    display: block;
+}
+/* .xizmat_service:hover +  .drop_menu_item{
+    display: block;
+} */
+/* .drop_menu_item:hover{
+width: 124px;
+height: 40px;
+background: #00BAFC;
+} */
+.drop_link{
+   
+    height: 24px;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+
+}
+
+.tel_number{
+    width: 128px;
+    height: 24px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+.nav_link{
+    width: 73px;
+    height: 24px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+
+/* main start*/
+.xizmatlar{
+width: 1130px;
+height: 284px;
+background: #FFFFFF;
+padding: 72px 0;
+margin: 0 auto;
+margin-top: 56px;
+}
+.xizmatlar_title{
+    width: 194px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #000000;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.xizmatlar_text{
+width: 800px;
+height: 72px;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+margin: 0 auto;
+text-align: center;
+color: #000000;
+}
+
+.info_box{
+width: 804px;
+height: 378px;
+background: #FFFFFF;
+box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+border-radius: 5px;
+padding: 32px;
+display: flex;
+margin: 0 auto;
+margin-bottom: 64px;
+}
+.info_box_design{
+    width: 804px;
+height: 346px;
+background: #FFFFFF;
+box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+border-radius: 5px;
+padding: 32px;
+display: flex;
+margin: 0 auto;
+margin-bottom: 64px;
+}
+.info_box:nth-child(5){
+margin-bottom: 80px;
+}
+.info_box_img{
+    margin-right: 40px;
+}
+.number_one_title{
+
+height: 26px;
+font-weight: bold;
+font-size: 20px;
+line-height: 130%;
+color: #000000;
+margin-bottom: 16px;
+}
+.number_one_text{
+width: 500px;
+height: 48px;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 16px;
+}
+.qator{
+    list-style-type:none ;
+}
+.qator_1{
+
+height: 24px;
+
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #000000;
+    margin-bottom: 8px;
+}
+.qator_1:nth-child(5){
+    margin-bottom: 16px;
+}
+
+.doira{
+display: inline-block;
+margin-right: 8px;
+width: 12px;
+height: 12px;
+background-color: #00BAFC;
+border-radius: 12px;
+}
+.qator_2{
+    margin-bottom: 16px;
+}
+.info_box_link{
+width: 167px;
+height: 40px;
+padding: 8px 16px;
+background: #00BAFC;
+border-radius: 5px;
+margin-right: 16px;
+}
+.info_box_word{
+width: 135px;
+height: 24px;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+display: inline-block;
+
+}
+.batafsil{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #00BAFC;
+}
+
+.section_four{
+    width: 100%;
+    height: 543px;
+    background: #00BAFC;
+    margin: 0 auto;
+    padding: 56px 205px 64px 205px;
+    }
+    .section_four_title{
+    width: 203px;
+    height: 31px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    }
+    .section_four_text{
+    height: 48px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0 205px;
+    text-align: center;
+    margin-bottom: 24px;
+    }
+    .infotmation{
+        width: 348px;
+        height: 304px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding: 24px;
+        margin: 0 auto;
+    }
+    .baza{
+    width: 300px;
+    height: 56px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    
+    }
+    .select{
+    width: 300px;
+    height: 56px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding-left: 16px;
+    color: #000000;
+    }
+    .button{
+    width: 167px;
+    height: 40px;
+    padding: 8px 16px;
+    background: #00BAFC;
+    border-radius: 5px;
+    margin: 0 66px;
+    border: none;
+    }
+    .button_text{
+        width: 135px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+        
+    }
+    .baza::placeholder{
+        width: 144px;
+    height: 24px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    padding-left: 16px;
+    
+    color: #000000;
+    
+    }
+    
+
+/*main end*/
+
+
+
+
+/*footer start*/
+
+.footer{
+    
+    width: 100%px;
+height: 338px;
+background: #191919;
+padding-top: 56px;
+padding-right: auto;
+padding-bottom: 56px;
+padding-left: 0px;   /* bitta qator qilib bergan edim paddingni olmadi */
+}
+.footer_var{
+    display: flex;
+}
+.footer_menu_one{
+  margin-right: 100px;
+}
+.footer_menu_one_title{
+width: 149px;
+height: 26px;
+font-weight: bold;
+font-size: 20px;
+line-height: 130%;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+.footer_menu_one_text{
+width: 320px;
+height: 120px;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.footer_menu_two{
+    margin-right: 87px;
+    list-style-type: none;
+}
+.footer_menu_two_title{
+width: 143px;
+height: 26px;
+font-weight: bold;
+font-size: 20px;
+line-height: 130%;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+.footer_menu_two_text{
+
+margin-bottom: 8px;
+
+}
+.footer_two_link{
+    text-decoration: none;
+    height: 24px;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.footer_two_link:hover{
+    color: #00BAFC;
+}
+.footer_two_lin:checked{
+    color: #00BAFC;
+
+opacity: 0.6;
+}
+.footer_menu_three_title{
+width: 142px;
+height: 26px;
+font-weight: bold;
+font-size: 20px;
+line-height: 130%;
+color: #FFFFFF;
+margin-bottom:16px ;
+}
+.footer_img{
+    width: 22px;
+    height: 24px;
+    margin-right: 8px;
+}
+.footer_menu_three_text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    
+}
+.tarmoq_link{
+text-decoration: none;
+height: 24px;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+
+.footer_menu_three_text:checked .footer_img{
+    
+    opacity: 0.6;
+}
+.footer_menu_three_text:hover .tarmoq_link{
+    color: #00BAFC;
+}
+.footer_menu_three_text:checked .tarmoq_link{
+    color: #00BAFC;
+    opacity: 0.6;
+}
